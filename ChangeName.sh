@@ -27,7 +27,7 @@ hostnamectl set-hostname $NEW_HOSTNAME
 # Display a message indicating the hostname has been changed
 echo "Hostname changed to $NEW_HOSTNAME. You may need to reboot for all changes to take effect."
 
-sudo reboot now 
+sudo exec bash
 
 exit 0
 
