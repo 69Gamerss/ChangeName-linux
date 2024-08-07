@@ -30,3 +30,6 @@ echo "Hostname changed to $NEW_HOSTNAME. You may need to reboot for all changes 
 sudo reboot now 
 
 exit 0
+
+
+###  wget -qO- https://raw.githubusercontent.com/69Gamerss/ChangeName-linux/main/ChangeName.sh | sudo bash -s -- <Hostname>
